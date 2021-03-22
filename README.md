@@ -1,4 +1,4 @@
-[Accurics Logo](https://raw.githubusercontent.com/accurics/labs/main/docs/assets/images/logo.png)
+![Accurics Logo](https://raw.githubusercontent.com/accurics/labs/main/docs/assets/images/logo.png)
 
 # Accurics Labs
 
