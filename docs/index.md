@@ -1,4 +1,4 @@
-![Accurics Logo](assets/images/logo.png)
+![Accurics Logo](/assets/images/logo.png)
 
 # Accurics Labs
 

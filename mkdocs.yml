@@ -8,6 +8,7 @@ copyright:  >-
 # Repository
 repo_name: accurics/labs
 repo_url: https://github.com/accurics/labs/
+edit_uri: edit/main/docs/
 
 # Configuration
 theme:
