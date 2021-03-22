@@ -14,7 +14,7 @@ If you haven't used Azure DevOps Repositories before, the easiest way to intiali
 
 1. Initialize the repository by going to **Repos**, **Files** and then clicking the **Intialize** button
 
-    ![ADO Initialize](/assets/images/ado_initialize.png)
+    ![ADO Initialize](../../../../assets/images/ado_initialize.png)
 
 
 ## Step 2: Adding IaC to your repository
@@ -29,11 +29,11 @@ Now it's time to upload the following IaC to your Azure DevOps repository:
 
 1. Click the three vertical dots on the right side of the page and select **Upload File(s)**
 
-    ![ADO Upload File](/assets/images/ado_upload_file.png)
+    ![ADO Upload File](../../../../assets/images/ado_upload_file.png)
 
 2. Click **Browse...**, find the file that you saved from above, and click **Commit**
 
-    ![ADO Commit File](/assets/images/ado_commit_file.png)
+    ![ADO Commit File](../../../../assets/images/ado_commit_file.png)
 
 
 ## Step 2: Add an environment to the Accurics Console

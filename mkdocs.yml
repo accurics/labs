@@ -2,6 +2,7 @@
 site_name: Accurics Labs
 site_description: >-
   Detect compliance and security violations across Infrastructure as Code to mitigate risk before deploying cloud native infrastructure.
+site_url: https://accurics.github.io/labs/
 copyright:  >-
   &copy; 2021 Accurics, Inc. All rights reserved.
 

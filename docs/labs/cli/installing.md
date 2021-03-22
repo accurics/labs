@@ -24,12 +24,12 @@ The Accurics CLI is downloaded from the Accurics console.
 1. Log into the Accurics console
 2. Click the three vertical dots to open the menu for your environment
 
-    ![Download CLI](/assets/images/cli_download.png)
+    ![Download CLI](../../assets/images/cli_download.png)
 
 3. Click **Download CLI**
 4. On the next screen select **Linux** and hit the **Submit** button
 
-    ![Linux Download](/assets/images/cli_linux_download.png)
+    ![Linux Download](../../assets/images/cli_linux_download.png)
 
 5. Once it's downloaded, you will need to mark it executable and place it in your path. It can also be invoked locally.
 
@@ -44,11 +44,11 @@ The Accurics CLI is downloaded from the Accurics console.
 1. Log into the Accurics console
 2. Click the three vertical dots to open the menu for your environment
 
-    ![Download CLI](/assets/images/cli_download.png)
+    ![Download CLI](../../assets/images/cli_download.png)
 
 3. Click **Download CLI**
 4. On the next screen select **Windows** and hit the **Submit** button
 
-    ![Linux Download](/assets/images/cli_windows_download.png)
+    ![Linux Download](../../assets/images/cli_windows_download.png)
 
 5. Place the downloaded executable file in your path

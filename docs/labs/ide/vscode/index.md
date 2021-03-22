@@ -31,11 +31,11 @@ For macOS, the default keybind is ++command+shift+p++
 
 1. Once in the Command Palette, you can enter **Accurics** and **Accurics Mode** will be an option. Select it or hit ++enter++
 
-    ![Accurics Command Palette](/assets/images/vscode_command_palette.png)
+    ![Accurics Command Palette](../../../assets/images/vscode_command_palette.png)
 
 2. Select the mode or hit ++enter++
 
-    ![Accurics Mode Select](/assets/images/vscode_mode_select.png)
+    ![Accurics Mode Select](../../../assets/images/vscode_mode_select.png)
 
 ## Standalone
 
@@ -51,7 +51,7 @@ Depending on your organization, you may already have a copy of your Accurics con
 2. Click the three vertical dots to open the menu for your environment
 3. Click **Download Config**
 
-    ![Download CLI](/assets/images/cli_download_config.png)
+    ![Download CLI](../../../assets/images/cli_download_config.png)
 
 4. Save the file to your computer to a folder of your choosing.
 

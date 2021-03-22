@@ -28,7 +28,7 @@ Depending on your organization, you may already have a copy of your Accurics con
 2. Click the three vertical dots to open the menu for your environment
 3. Click **Download Config**
 
-    ![Download CLI](/assets/images/cli_download_config.png)
+    ![Download CLI](../../../assets/images/cli_download_config.png)
 
 4. Save the file to your computer to a folder of your choosing.
 
