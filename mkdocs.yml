@@ -1,0 +1,58 @@
+# Project Info
+site_name: Accurics Labs
+site_description: >-
+  Detect compliance and security violations across Infrastructure as Code to mitigate risk before deploying cloud native infrastructure.
+copyright:  >-
+  &copy; 2021 Accurics, Inc. All rights reserved.
+
+# Repository
+repo_name: accurics/labs
+repo_url: https://github.com/accurics/labs/
+
+# Configuration
+theme:
+  name: material
+  favicon: assets/images/favicon.ico
+  logo: assets/images/logo_small.png
+
+# Custom CSS
+extra_css:
+  - assets/css/extra.css
+
+# Social Icons
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/AccuricsSec
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/accurics
+    - icon: fontawesome/brands/github
+      link: https://github.com/accurics
+
+# Navigation
+nav:
+  - Home: index.md
+  - Labs:
+    - Accurics CLI:
+      - Installing the CLI: labs/cli/installing.md
+      - Azure:
+        - Running the CLI: labs/cli/azure/index.md
+    - Accurics Console:
+      - SCM Scanning: 
+        - Azure DevOps: labs/console/scm/ado/index.md
+    - Accurics in IDE:
+      - Microsoft VS Code: labs/ide/vscode/index.md
+    #- Accurics in CI/CD:
+    #  - Azure DevOps: labs/cicd/ado/index.md
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys

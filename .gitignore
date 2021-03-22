@@ -1,0 +1,14 @@
+# General ignores
+.DS_Store
+
+# Accurics CLI ignores
+accurics_report.html
+accurics_report.json
+
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+*.hcl
