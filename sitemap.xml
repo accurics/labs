@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
+     <loc>https://accurics.github.io/labs/</loc>
+     <lastmod>2021-03-30</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://accurics.github.io/labs/labs/cli/installing/</loc>
+     <lastmod>2021-03-30</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://accurics.github.io/labs/labs/cli/azure/</loc>
+     <lastmod>2021-03-30</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://accurics.github.io/labs/labs/console/scm/ado/</loc>
+     <lastmod>2021-03-30</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://accurics.github.io/labs/labs/ide/vscode/</loc>
+     <lastmod>2021-03-30</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+</urlset>
