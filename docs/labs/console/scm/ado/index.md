@@ -6,7 +6,7 @@ You can use the Accurics Console to scan an Azure DevOps repository.
 
 * An Accurics Enterprise user account with an Operator or greater role
 * An Azure subscription with enough permissions to create a resource and network security group
-* A Azure DevOps organization with an empty project that you have `basic` access to
+* An Azure DevOps organization with an empty project that you have `basic` access to
 
 ## Step 1: Initializing an Azure DevOps Repository
 
