@@ -6,7 +6,7 @@ The Accurics VS Code Extension can be run inside of Microsoft VS Code either thr
 
 * [Microsoft VS Code](https://code.visualstudio.com/)
 * [Microsoft VS Code Terraform extension](https://marketplace.visualstudio.com/items?itemName=HashiCorp.terraform)
-* Terraform version > .14
+* Terraform version >= .12
 * For Integrated mode scans, an Accurics user account with an Operator or greater role
 * For Integrated mode scans, an Azure subscription with enough permissions to create a resource and network security group
 * For Integrated mode scans, an environment on the Accurics Console to scan your IAC repository that you will be using to create the CI/CD builds
@@ -27,7 +27,7 @@ The Accurics extension has two modes of operation: *Standalone* and *Integrated*
 
 To select the mode, you can use the Command Palette. The keyboard shortcut for this differs per platform and you can find reference guides on [Microsoft's website](https://code.visualstudio.com/docs/getstarted/keybindings#_keyboard-shortcuts-reference).
 
-For macOS, the default keybind is ++command+shift+p++
+For macOS, the default key bind is ++command+shift+p++
 
 1. Once in the Command Palette, you can enter **Accurics** and **Accurics Mode** will be an option. Select it or hit ++enter++
 
@@ -42,6 +42,8 @@ For macOS, the default keybind is ++command+shift+p++
 A standalone scan doesn't require an Accurics account and can be run by either right clicking an IaC file, or by using the Command Palette in Microsoft VS Code and selecting **Accurics Scan**.
 
 ## Integrated
+
+With inteagrated mode, violations will be uploaded to the Accurics console and to the local directory in JSON/HTML format. It also uses policies set in the console.
 
 ### Step 1: Download configuration file
 
@@ -103,7 +105,7 @@ After initalizing the IaC, you must run `accurics plan`, which is a wrapper arou
 
 1. Runs a `terraform plan`
 2. Runs an analysis that compares the Terraform code to the resources that Terraform will create
-3. Generates a dependancy graph
+3. Generates a dependency graph
 4. Outputs JSON and HTML files listing any violations
 5. Gives you a summary of how many resources are in the Terraform code, and number of violations sorted by severity
 6. Uploads the results to the Accurics Console so they can be viewed online

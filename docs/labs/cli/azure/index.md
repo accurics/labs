@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-* Terraform version > .14
+* Terraform version >= .12
 * An Accurics user account with an Operator or greater role
 * An Azure subscription with enough permissions to create a resource and network security group
 * Setup an environment on the Accurics Console to scan your IAC repository that you will be using to create the CI/CD builds
@@ -45,7 +45,7 @@ Please copy the Terraform code below and save it as `azure_example.tf` to the sa
 
 ## Step 4: `accurics init`
 
-`accurics init` is a wrapper around `terraform init` that downloads all the required Terraform providers, and is required prior to running any futher commands.
+`accurics init` is a wrapper around `terraform init` that downloads all the required Terraform providers, and is required prior to running any further commands.
 
 ```
 > accurics init
@@ -74,7 +74,7 @@ We're at the point where it's time to scan the sample Terraform you saved above!
 
 1. Runs a `terraform plan`
 2. Runs an analysis that compares the Terraform code to the resources that Terraform will create
-3. Generates a dependancy graph
+3. Generates a dependency graph
 4. Outputs JSON (`accurics_report.json`) and HTML (`accurics_report.html`) files listing any violations
 5. Gives you a summary of how many resources are in the Terraform code, and number of violations sorted by severity
 6. Uploads the results to the Accurics Console so they can be viewed online
